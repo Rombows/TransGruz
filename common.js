@@ -121,9 +121,9 @@ $(function() {
 
 $('.sendform').click('click', function(e) {
 
-    var name = $("#name").val().trim();
-    var phone = $("#phone").val().trim();
-    var adress = $("#adress").val().trim();
+    //var name = $("#name").val().trim();
+    //var phone = $("#phone").val().trim();
+    //var adress = $("#adress").val().trim();
     $.ajax({
         type: "POST",
         url: "mail.php",
